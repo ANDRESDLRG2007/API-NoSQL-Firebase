@@ -4,7 +4,7 @@ export default async function mostrarHome() {
     try {
         // Cargar los datos del JSON
         const response = await
-            fetch("https://diaztibata.github.io/sanagustin/json/miercoles-avanzada.json");
+            fetch("https://andresdlrg2007.github.io/andres-proyectos-json/proyectos.json");
         const proyectos = await response.json();
         // Limpiar contenedor
         appContainer.innerHTML = "";
